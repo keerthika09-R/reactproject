@@ -1,0 +1,103 @@
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url('https://img.freepik.com/free-vector/blue-futuristic-networking-technology_53876-100679.jpg');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#container {
+    background: rgba(255, 255, 255, 0.85); 
+    padding: 30px 20px;
+    text-align: center;
+    width: 100%; 
+    max-width: 350px;
+    height: auto;
+    margin: 20px auto; 
+    border-radius: 20px;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
+}
+#container h1 {
+    font-size: 28px;
+    color: #01579b; 
+    font-weight: bold;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+    margin-bottom: 15px; 
+}
+input {
+    width: 90%; 
+    max-width: 280px; 
+    color: #333;
+    border: 2px solid #0277bd;
+    border-radius: 8px;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.9);
+    margin-bottom: 12px;
+    font-size: 16px;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+input::placeholder {
+    font-size: 14px; 
+    color: #666; 
+}
+input:focus {
+    border-color: #01579b;
+    box-shadow: 0 0 8px rgba(1, 87, 155, 0.4);
+    outline: none;
+}
+button {
+    background-color: #0277bd; 
+    border: none;
+    padding: 10px 20px; 
+    border-radius: 8px;
+    margin-top: 10px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, box-shadow 0.3s, transform 0.2s;
+    width: 90%; 
+    max-width: 280px;
+}
+button:hover {
+    background-color: #01579b;
+    transform: scale(1.05);
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+}
+button:active {
+    background-color: #01477d; 
+    transform: scale(1);
+}
+input.button {
+    background-color: #0277bd; 
+    color: #fff;
+    padding: 10px 20px; 
+    border-radius: 8px;
+    transition: background-color 0.3s, box-shadow 0.3s, transform 0.2s;
+}
+input.button:hover {
+    background-color: #01579b;
+    transform: scale(1.05);
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+}
+#container form h3 {
+    margin: 5px;
+    color: #0277bd;
+    font-size: 16px; 
+}
+@media (max-width: 600px) {
+    #container {
+        width: 95%; 
+        padding: 20px;
+    }
+
+    #container h1 {
+        font-size: 1.5rem; 
+    }
+}

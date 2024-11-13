@@ -1,0 +1,79 @@
+{
+  "users": [
+    {
+      "email": "user@example.com",
+      "password": "Password123!",
+      "id": "f43e"
+    },
+    {
+      "id": "59a5",
+      "username": "KEERTHIKA_R",
+      "email": "727723eucs104@skcet.ac.in",
+      "password": "Skcet@123"
+    },
+    {
+      "id": "8343",
+      "username": "Preethy_21",
+      "email": "Preethi21@gmail.com",
+      "password": "Keerthy09!"
+    },
+    {
+      "id": "6c63",
+      "username": "Naks_21",
+      "email": "nakshatrapsd@gmail.com",
+      "password": "Preethy21!"
+    }
+  ],
+  "details": [
+    {
+      "id": "1729706839209",
+      "name": "keerthi",
+      "email": "727723eucs104@skcet.ac.in",
+      "phoneNumber": "09787981210",
+      "productName": "dsfsdgb",
+      "description": "sdga",
+      "targetAudience": "sdgrg",
+      "budget": "sgdfsg",
+      "marketingChannels": [
+        "Social Media"
+      ],
+      "comments": "sdgdsh"
+    },
+    {
+      "id": "1729708665846",
+      "name": "Keerthy",
+      "email": "keerthikarajasekaran44@gmail.com",
+      "phoneNumber": "09787981210",
+      "productName": "safwgfsdf",
+      "description": "adfwg",
+      "targetAudience": "dsafrg",
+      "budget": "dsfeg",
+      "marketingChannels": [],
+      "comments": "fewrg"
+    },
+    {
+      "id": "1729732286637",
+      "name": "naa",
+      "email": "keerthikarajasekaran44@gmail.com",
+      "phoneNumber": "09787981210",
+      "productName": "fdsdfegf",
+      "description": "wegeh",
+      "targetAudience": "18",
+      "budget": "20000",
+      "marketingChannels": [],
+      "comments": "wef34tg"
+    },
+    {
+      "id": 1729742280981,
+      "name": "KEERTHIKA  R",
+      "email": "keerthikarajasekaran44@gmail.com",
+      "phoneNumber": "09787981210",
+      "productName": "fdsdfegf",
+      "description": "wegeh",
+      "targetAudience": "18",
+      "budget": "20000",
+      "marketingChannels": [],
+      "comments": "m,n"
+    }
+  ]
+}

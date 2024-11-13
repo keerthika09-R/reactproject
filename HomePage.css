@@ -1,0 +1,341 @@
+body {
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-size: auto; 
+    background-position: center;
+    background-image: url('https://img.freepik.com/free-vector/blue-futuristic-networking-technology_53876-100679.jpg');
+    background-repeat: repeat; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.home-page {
+  background: rgba(255, 255, 255, 0.85);
+  padding: 30px 20px;
+  text-align: center;
+  width: 100%;
+  max-width: 1000px;
+  height: auto;
+  margin: 20px auto;
+  border-radius: 20px;
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
+  position: relative;
+}
+.hero-section {
+  padding: 50px 20px;
+  color: #01579b;
+  text-align: center;
+}
+.hero-content h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+}
+.hero-content p {
+  font-size: 1.2em;
+  margin-bottom: 30px;
+}
+.cta-button {
+  background-color: #0277bd;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1.2em;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease, transform 0.2s ease;
+} 
+.cta-button:hover {
+  background-color: #01579b;
+  transform: scale(1.05);
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+}
+.services-section {
+  padding: 30px 20px;
+  background-color: rgba(255, 255, 255, 0.85);
+  text-align: center;
+}
+.services-section h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+  color: #01579b;
+}
+.services-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+.service-item {
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 20px;
+  width: 250px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  border: 2px solid #0277bd;
+  transition: box-shadow 0.3s ease, transform 0.2s ease;
+}
+.service-item h3 {
+  font-size: 1.5em;
+  margin-bottom: 15px;
+  color: #0277bd;
+}
+.service-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+.testimonials-section {
+  padding: 30px 20px;
+  background-color: rgba(255, 255, 255, 0.85);
+  text-align: center;
+}
+.testimonials-section h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+  color: #01579b;
+}
+.testimonials-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+.testimonial-item {
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 20px;
+  width: 300px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  font-style: italic;
+  text-align: center;
+  border: 2px solid #0277bd;
+  transition: box-shadow 0.3s ease, transform 0.2s ease;
+}
+.client-name {
+  font-weight: bold;
+  margin-top: 15px;
+  color: #0277bd;
+}
+.testimonial-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+.cta-section {
+  padding: 30px 20px;
+  background-color: rgba(255, 255, 255, 0.85);
+  color: #01579b;
+  text-align: center;
+}
+.cta-section h2 {
+  font-size: 2em;
+  margin-bottom: 15px;
+}
+.cta-section p {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+@media (max-width: 600px) {
+  .home-page {
+    width: 95%;
+    padding: 20px;
+  }
+  .hero-content h1 {
+    font-size: 1.8em;
+  }
+  .cta-button {
+    width: 90%;
+    max-width: 280px;
+  }
+  .services-list,
+  .testimonials-list {
+    flex-direction: column;
+    gap: 15px;
+  }
+  .service-item,
+  .testimonial-item {
+    width: 90%;
+    max-width: 280px;
+  }
+}
+.services-section {
+  margin-top: 150px; 
+  position: relative; 
+  padding-top: 50px; 
+}
+.avatar-container {
+  display: flex;
+  align-items: center;
+  margin-left: 15px; 
+}
+
+.profile-avatar {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  border: 2px solid #0277bd;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.profile-avatar:hover {
+  transform: scale(1.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+@media (max-width: 600px) {
+  .section-tags {
+    justify-content: center; 
+    top: 10px; 
+    right: 10px; 
+    left: 10px; 
+    
+  }
+ 
+}
+
+.section-tag-item {
+  font-size: 1em;
+  color: #fff; 
+  cursor: pointer; 
+  font-weight: bold;
+  padding: 5px;
+  background-color:#0277bd; 
+  border-radius: 5px;
+  transition: background-color 0.3s ease, color 0.3s ease, transform 0.2s ease;
+  display: flex;
+  align-items: center; 
+}
+.section-tag-item::after {
+  content: "▼"; 
+  font-size: 0.8em;
+  margin-left: 10px; 
+  transition: transform 0.3s ease; 
+}
+.section-tag-item:hover {
+  color: #fff; 
+  transform: scale(1.05); 
+}
+.section-tag-item:hover::after {
+  transform: rotate(180deg); 
+} 
+.img{
+  width: 200px;
+  height: 150px;
+}
+.about-content {
+  margin-top: 10px;
+  background-color: #f0f0f0;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.about-modal h2 {
+  margin-top: 0;
+}
+
+.about-modal p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+/* Modal styling */
+
+
+.about-modal-content, .services-modal-content {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  width: 80%;
+  max-width: 600px;
+  position: relative;
+}
+
+
+.about-modal h2, .services-modal h2 {
+  margin-top: 0;
+}
+
+.about-modal p, .services-modal p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.services-modal ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.services-modal ul li {
+  margin-bottom: 10px;
+}
+
+/* Contact Modal styling */
+
+.contact-modal-content {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  width: 80%;
+  max-width: 600px;
+  position: relative;
+}
+.reviews-modal-content {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  width: 80%;
+  max-width: 600px;
+  position: relative;
+}
+
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.contact-modal h2 {
+  margin-bottom: 20px;
+}
+
+.contact-modal p {
+  margin: 10px 0;
+}
+/* Modal Common Styles */
+.about-modal, .services-modal, .contact-modal, .reviews-modal {
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Darken background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-modal-content, .services-modal-content, .contact-modal-content, .reviews-modal-content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  width: 80%;
+  max-width: 600px;
+}
+
